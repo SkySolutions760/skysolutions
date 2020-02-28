@@ -1,0 +1,692 @@
+#result {
+  font-size: 26px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  color: #565656 !important;
+  padding-bottom: 30px !important;
+  margin-bottom: 50px !important;
+  margin-top: -50px !important;
+  padding-top: -50px !important;
+  position: absolute !important;
+  z-index: 3 !important;
+  align-content: center !important;
+}
+
+#display-result {
+  padding-bottom: 30px !important;
+  margin-bottom: 50px !important;
+  margin-top: -50px !important;
+  padding-top: -50px !important;
+  position: absolute !important;
+  align-content: center !important;
+}
+
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  list-style-position: initial;
+  color: black;
+  letter-spacing: 1.2px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  padding-top: 7px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar li {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #2c6276;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #2c6276;
+}
+
+.background {
+  height: 320px;
+  background-image: url(../images/dentist-background-image.jpg);
+}
+
+.web-design-background {
+  height: 280px;
+  background-image: url(../images/dentist-web-design-background.jpg);
+}
+
+.pricing-background {
+  height: 280px;
+  background-image: url(../images/pricing-background.jpg);
+}
+
+.ppc-background {
+  height: 280px;
+  background-image: url(../images/ppc-background.jpg);
+}
+
+.seo-background {
+  height: 280px;
+  background-image: url(../images/seo-background.jpg);
+}
+
+.content-writing-background {
+  height: 280px;
+  background-image: url(../images/content-writing-background.jpg);
+}
+
+.online-ads-background {
+  height: 280px;
+  background-image: url(../images/online-ads-background.jpg);
+}
+
+.social-media-background {
+  height: 280px;
+  background-image: url(../images/social-media-background.jpg);
+}
+
+.logo-image {
+  background-image: url(../images/dentist-marketing-logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 55px;
+}
+
+.padding-0 {
+  padding-left: 220px;
+}
+
+.padding-1 {
+  padding-right: 220px;
+}
+
+.tagline {
+  font-family: "Bitter", serif;
+  color: #2c6276;
+  font-size: 12px;
+  margin-top: -6px;
+}
+
+.top-cta a {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #2c6276 !important;
+  background-color: #f9ee00;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 3px 3px 3px #eaeaea;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 7%;
+  height: 50%;
+  text-align: center;
+}
+
+.grey-background {
+  background-color: #f0f0f0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.heading-question {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #2c6276 !important;
+}
+
+.wd-heading-question {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #2c6276 !important;
+  margin-top: -25px;
+}
+
+.question-responsive {
+  position: relative;
+  top: 35%;
+  transform: translateY(-30%);
+  text-shadow: 3px 3px 3px white;
+}
+
+.services {
+  font-size: 14px !important;
+}
+
+.analysis-cta {
+  background: #ffff7a; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    left top,
+    #ffff7a,
+    #ffd800
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    bottom right,
+    #ffff7a,
+    #ffd800
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    bottom right,
+    #ffff7a,
+    #ffd800
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    to bottom right,
+    #ffff7a,
+    #ffd800
+  ); /* Standard syntax */
+  height: auto;
+  height: inherit;
+}
+
+.analysis-cta-home {
+  background: #2c6276; /* For browsers that do not support gradients */
+  height: auto;
+  height: inherit;
+}
+
+.analysis-heading {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  padding-top: 50px;
+}
+
+.analysis-heading-home {
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 50px;
+  letter-spacing: 1.4px;
+  color: white !important;
+}
+
+.analysis-subheading {
+  font-size: 13px;
+  font-weight: 400 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.analysis-subheading-home {
+  font-size: 13px;
+  font-weight: 400 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white !important;
+}
+
+.blog-title a {
+  color: #2c6276;
+}
+
+.blog-preview {
+  font-size: 15px !important;
+}
+
+.feedback-cta a {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white !important;
+  background-color: #2c6276;
+  padding: 10px 14px 10px 14px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.feedback-cta-home a {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #2c6276 !important;
+  background-color: #f9ee00;
+  padding: 10px 14px 10px 14px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.feedback-cta {
+  margin-top: 50px !important;
+}
+
+.feedback-cta-home {
+  margin-top: 50px !important;
+}
+
+#blog-section {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 60px;
+  padding-bottom: 120px;
+}
+
+#blog-section p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.glyphicon {
+  font-size: 12px !important;
+  margin-top: -8px;
+  vertical-align: middle;
+}
+
+.glyphicon-time {
+  margin-top: -4px;
+}
+
+.glyphicon-ok {
+  color: #8deb89;
+  padding-left: 20px;
+}
+
+.glyph-industry {
+  font-size: 22px !important;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  color: #2c6276 !important;
+}
+
+.liketodo {
+  float: left;
+  clear: left;
+  font-size: 15px;
+  padding-top: 3px;
+}
+
+.learn-more {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  background-color: #f9ee00;
+}
+
+.learn-more a {
+  color: #2c6276 !important;
+}
+
+.titles {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1.7px;
+  margin-top: -5px;
+}
+
+.footer-cta {
+  height: 150px;
+  padding-top: 40px;
+  padding-bottom: 75px;
+  background-color: #e5eff4;
+  margin-top: -70px !important;
+}
+
+.footer-buttons a {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #2c6276 !important;
+  background-color: #f9ee00;
+  padding: 10px 14px 10px 14px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.footer-buttons {
+  margin-top: 25px;
+  position: relative;
+}
+
+footer {
+  background-color: #2c6276 !important;
+}
+
+.footer-links a {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: white !important;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-right: 40px;
+  letter-spacing: 1.3px;
+}
+
+.footer-links {
+  padding-top: 30px;
+}
+
+.policy-links a {
+  font-size: 10px !important;
+  font-family: "Montserrat", sans-serif;
+  color: #bdbdbd !important;
+  letter-spacing: 1.2px;
+}
+
+#copyright {
+  font-size: 9px;
+  font-family: "Montserrat", sans-serif;
+  color: #a8a8a8 !important;
+  padding-bottom: 20px;
+  letter-spacing: 1.3px;
+}
+
+.websitesubmit {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white !important;
+  background-color: #2c6276;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 3px 3px 3px #888888;
+  border-radius: 0px;
+  border-color: #2c6276 !important;
+}
+
+.websitesubmit:hover {
+  background-color: #337892 !important;
+}
+
+.web-design-form {
+  border-radius: 0px !important;
+  max-width: 300px !important;
+}
+
+.form-control {
+  border-radius: 0px !important;
+  height: 40px !important;
+}
+
+.text-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.free-analysis {
+  line-height: 35px !important;
+}
+
+.would-like-to {
+  margin-top: 80px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.spacing {
+  margin-bottom: 20px;
+}
+
+.glyphicon-ok {
+  padding-right: 8px;
+  margin-left: -30px;
+}
+
+.float {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.team-text {
+  font-size: 14px;
+}
+
+.liketodo {
+  text-align: left;
+}
+
+.adwords-headings {
+  padding-bottom: 10px;
+  margin-top: 20%;
+}
+
+.ppc-icons {
+  margin-right: -50px;
+}
+
+.ppc-text {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.team-name {
+  padding-bottom: 10px !important;
+}
+
+.price-text {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  font-size: 14.5px;
+}
+
+.price-glyph {
+  margin-left: -40px !important;
+}
+
+.per-month {
+  font-size: 10px;
+}
+
+.dollar {
+  font-size: 10px;
+}
+
+.pricing-name {
+  margin-top: 20px;
+}
+
+.faq-question {
+  margin-top: 20px;
+}
+
+.success {
+  border: solid #00d452 1px;
+}
+
+.failed {
+  border: solid #f50000;
+}
+
+@media only screen and (max-width: 900px) {
+  .tagline {
+    font-size: 11px;
+    margin-top: -6px;
+    padding-left: 35px !important;
+    padding-right: 20px !important;
+  }
+
+  .heading-question {
+    font-size: 1.7em;
+  }
+
+  .wd-heading-question {
+    font-size: 1.7em !important;
+    padding-top: 30px;
+  }
+
+  .footer-buttons {
+    margin-top: 1px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .footer-buttons a {
+    font-size: 14px;
+  }
+
+  .padding-0 {
+    padding-left: 0px !important;
+  }
+
+  .padding-1 {
+    padding-right: 0px !important;
+  }
+
+  .ppc-images {
+    margin-bottom: -120px !important;
+    margin-top: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .background {
+    background-image: url(../images/dentist-background-image-480.jpg);
+  }
+
+  .web-design-background {
+    height: 280px;
+    background-image: url(../images/dentist-web-design-background-480.jpg);
+  }
+
+  .pricing-background {
+    height: 280px;
+    background-image: url(../images/pricing-background-mobile.jpg);
+  }
+
+  .ppc-background {
+    height: 280px;
+    background-image: url(../images/ppc-background-480.jpg);
+  }
+
+  .content-writing-background {
+    height: 280px;
+    background-image: url(../images/content-writing-background-mobile.jpg);
+  }
+
+  .online-ads-background {
+    height: 280px;
+    background-image: url(../images/online-ads-background-mobile.jpg);
+  }
+
+  .social-media-background {
+    height: 280px;
+    background-image: url(../images/social-media-background-mobile.jpg);
+  }
+
+  .footer-links a {
+    float: left;
+    padding-bottom: 20px;
+  }
+
+  .padding-0 {
+    padding-left: 0px !important;
+  }
+
+  .padding-1 {
+    padding-right: 30px !important;
+  }
+
+  .glyphicon-ok {
+    margin-left: -40px;
+  }
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* Modal */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  background-color: #2c6276;
+}
+
+.modal-title {
+  padding: 10px 16px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.modal-body {
+  padding: 0px 16px;
+  margin: 20px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px !important;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.modal-form {
+  margin-top: 15px;
+}
+
+.modal-button {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Modal */
+
+.ppc-icons {
+  margin-right: 0px;
+}
+
+.ppc-images {
+  margin-bottom: -60px !important;
+  margin-top: 40px !important;
+}
